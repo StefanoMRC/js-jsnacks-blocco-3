@@ -5,7 +5,7 @@ let somma=0
 while (somma<50){
     let num=parseInt(prompt("inserisci un numero"))
     array.push(num)
-    somma=somma+num
+    somma+=num
     
 };
 document.getElementById("contArray").innerHTML=array
